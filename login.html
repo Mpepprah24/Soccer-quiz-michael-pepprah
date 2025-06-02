@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Soccer Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="soccer-ball-icon">
+            <i class="fas fa-futbol fa-3x" style="color: #1e3c72;"></i>
+        </div>
+        <h2>🔐 Login to Your Account</h2>
+        <form method="POST">
+            <div class="input-with-icon">
+                <i class="fas fa-user"></i>
+                <input name="username" placeholder="Username" required>
+            </div>
+            <div class="input-with-icon">
+                <i class="fas fa-lock"></i>
+                <input name="password" type="password" placeholder="Password" required>
+            </div>
+            <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+        </form>
+        <div class="auth-links">
+            <p><a href="/register"><i class="fas fa-user-plus"></i> Don't have an account? Register</a></p>
+            <p><a href="#"><i class="fas fa-key"></i> Forgot Password?</a></p>
+        </div>
+    </div>
+</body>
+</html>

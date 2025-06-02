@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soccer Quiz App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚽ Welcome to the Soccer Quiz! ⚽</h1>
+        <p>Test your football knowledge and compete with fans worldwide!</p>
+        <div class="soccer-buttons">
+            <a href="/login" class="btn-login"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="/register" class="btn-register"><i class="fas fa-user-plus"></i> Register</a>
+        </div>
+        <div class="soccer-field">
+            <div class="field-line"></div>
+            <div class="center-circle"></div>
+        </div>
+    </div>
+</body>
+</html>

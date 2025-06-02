@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Who won the 2022 FIFA World Cup?",
+        "options": ["Argentina", "France", "Brazil", "Croatia"],
+        "answer": "Argentina"
+    },
+    {
+        "question": "Which country has won the most World Cups?",
+        "options": ["Germany", "Italy", "Brazil", "Argentina"],
+        "answer": "Brazil"
+    },
+    {
+        "question": "Who is known as the 'King of Football'?",
+        "options": ["Messi", "Pelé", "Maradona", "Ronaldo"],
+        "answer": "Pelé"
+    },
+    {
+        "question": "Which club has won the most UEFA Champions League titles?",
+        "options": ["Barcelona", "Bayern Munich", "Real Madrid", "AC Milan"],
+        "answer": "Real Madrid"
+    },
+    {
+        "question": "Who holds the record for most goals in a single World Cup?",
+        "options": ["Ronaldo", "Klose", "Just Fontaine", "Messi"],
+        "answer": "Just Fontaine"
+    },
+    {
+        "question": "Which nation hosted the 2010 FIFA World Cup?",
+        "options": ["South Africa", "Germany", "Brazil", "Japan"],
+        "answer": "South Africa"
+    },
+    {
+        "question": "Which player is nicknamed 'La Pulga'?",
+        "options": ["Messi", "Neymar", "Mbappé", "Suarez"],
+        "answer": "Messi"
+    },
+    {
+        "question": "What is the maximum duration of a standard soccer match?",
+        "options": ["80 minutes", "90 minutes", "100 minutes", "70 minutes"],
+        "answer": "90 minutes"
+    },
+    {
+        "question": "Who scored the infamous 'Hand of God' goal?",
+        "options": ["Pelé", "Messi", "Maradona", "Beckham"],
+        "answer": "Maradona"
+    },
+    {
+        "question": "Which team has the most Premier League titles?",
+        "options": ["Chelsea", "Liverpool", "Manchester City", "Manchester United"],
+        "answer": "Manchester United"
+    },
+    {
+        "question": "Which country won the Euro 2016 tournament?",
+        "options": ["Germany", "Portugal", "France", "Italy"],
+        "answer": "Portugal"
+    },
+    {
+        "question": "Who is the top scorer in Champions League history?",
+        "options": ["Messi", "Lewandowski", "Cristiano Ronaldo", "Benzema"],
+        "answer": "Cristiano Ronaldo"
+    },
+    {
+        "question": "What is a hat-trick?",
+        "options": ["3 fouls", "3 assists", "3 goals", "3 penalties"],
+        "answer": "3 goals"
+    },
+    {
+        "question": "What does VAR stand for?",
+        "options": [
+            "Video Assistant Referee",
+            "Virtual Assistant Replay",
+            "Verified Action Replay",
+            "Video Analysis Room"
+        ],
+        "answer": "Video Assistant Referee"
+    },
+    {
+        "question": "How many players are on a soccer field (one team)?",
+        "options": ["9", "10", "11", "12"],
+        "answer": "11"
+    },
+    {
+        "question": "Who won the Ballon d'Or in 2021?",
+        "options": ["Ronaldo", "Lewandowski", "Messi", "Benzema"],
+        "answer": "Messi"
+    },
+    {
+        "question": "What color card means immediate ejection?",
+        "options": ["Yellow", "Blue", "Red", "Orange"],
+        "answer": "Red"
+    },
+    {
+        "question": "Which country won Copa America 2021?",
+        "options": ["Chile", "Brazil", "Argentina", "Uruguay"],
+        "answer": "Argentina"
+    },
+    {
+        "question": "Which club did Ronaldo play for before Juventus?",
+        "options": ["Real Madrid", "Barcelona", "Man City", "Chelsea"],
+        "answer": "Real Madrid"
+    },
+    {
+        "question": "What is the name of the MLS championship?",
+        "options": ["Gold Cup", "MLS Cup", "Super Bowl", "American Shield"],
+        "answer": "MLS Cup"
+    },
+    {
+        "question": "Where was the 2018 FIFA World Cup held?",
+        "options": ["Brazil", "Russia", "Germany", "Qatar"],
+        "answer": "Russia"
+    },
+    {
+        "question": "What's the nickname of the Italian national team?",
+        "options": ["Azzurri", "Les Bleus", "La Roja", "Bafana Bafana"],
+        "answer": "Azzurri"
+    },
+    {
+        "question": "Who wears #10 for Argentina?",
+        "options": ["Messi", "Di Maria", "Martinez", "De Paul"],
+        "answer": "Messi"
+    },
+    {
+        "question": "What does FIFA stand for?",
+        "options": [
+            "Football International Federation Association",
+            "Federation of Football Associations",
+            "Fédération Internationale de Football Association",
+            "None"
+        ],
+        "answer": "Fédération Internationale de Football Association"
+    },
+    {
+        "question": "Which stadium is home to Manchester United?",
+        "options": ["Anfield", "Camp Nou", "Old Trafford", "Etihad"],
+        "answer": "Old Trafford"
+    },
+    {
+        "question": "Who won the 2006 World Cup?",
+        "options": ["Italy", "France", "Brazil", "Germany"],
+        "answer": "Italy"
+    },
+    {
+        "question": "Which team is known as the Blues?",
+        "options": ["Arsenal", "Man Utd", "Chelsea", "Liverpool"],
+        "answer": "Chelsea"
+    },
+    {
+        "question": "What does a yellow card mean?",
+        "options": ["Goal", "Warning", "Ejection", "Substitute"],
+        "answer": "Warning"
+    },
+    {
+        "question": "How many World Cups has Germany won?",
+        "options": ["2", "4", "3", "1"],
+        "answer": "4"
+    },
+    {
+        "question": "Which African country made it to the 2022 semi-final?",
+        "options": ["Senegal", "Ghana", "Morocco", "Cameroon"],
+        "answer": "Morocco"
+    }
+]

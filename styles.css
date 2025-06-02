@@ -1,0 +1,188 @@
+body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 3px solid #2a5298;
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(45deg, #1e3c72, #2a5298, #1e3c72);
+    z-index: -1;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+h1, h2 {
+    color: #1e3c72;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input, select, button {
+    font-family: 'Courier New', monospace;
+    padding: 12px;
+    margin: 8px 0;
+    width: 80%;
+    border: 2px solid #1e3c72;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #2a5298;
+    box-shadow: 0 0 10px rgba(42, 82, 152, 0.5);
+}
+
+button {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+a {
+    color: #1e3c72;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #2a5298;
+    text-decoration: underline;
+}
+
+.correct {
+    color: #28a745;
+    animation: pop 0.5s ease-in-out;
+}
+
+.incorrect {
+    color: #dc3545;
+    animation: shake 0.5s ease-in-out;
+}
+
+.banner {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.success {
+    background-color: rgba(40, 167, 69, 0.2);
+    border: 2px solid #28a745;
+    color: #28a745;
+}
+
+.great {
+    background-color: rgba(23, 162, 184, 0.2);
+    border: 2px solid #17a2b8;
+    color: #17a2b8;
+}
+
+.average {
+    background-color: rgba(255, 193, 7, 0.2);
+    border: 2px solid #ffc107;
+    color: #ffc107;
+}
+
+.poor {
+    background-color: rgba(220, 53, 69, 0.2);
+    border: 2px solid #dc3545;
+    color: #dc3545;
+}
+
+.restart-bar {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px dashed #1e3c72;
+}
+
+.restart-bar a {
+    margin: 0 10px;
+    padding: 8px 15px;
+    background: rgba(30, 60, 114, 0.1);
+    border-radius: 5px;
+}
+
+.restart-bar a:hover {
+    background: rgba(30, 60, 114, 0.2);
+    text-decoration: none;
+}
+
+@keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+/* Soccer field pattern for quiz page */
+#quiz-box {
+    background: rgba(255, 255, 255, 0.95);
+    background-image: 
+        linear-gradient(rgba(0, 128, 0, 0.1) 2px, transparent 2px),
+        linear-gradient(90deg, rgba(0, 128, 0, 0.1) 2px, transparent 2px);
+    background-size: 30px 30px;
+    border: 3px solid #1e3c72;
+}
+
+.option {
+    background: white;
+    border: 2px solid #1e3c72 !important;
+}
+
+.option:hover {
+    background: #e6f0ff;
+    border-color: #2a5298 !important;
+}
+
+#next-btn.enabled {
+    background: linear-gradient(to right, #28a745, #20c997);
+}
